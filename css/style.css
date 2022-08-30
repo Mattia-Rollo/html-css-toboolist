@@ -49,14 +49,34 @@ main {
 button {
     margin: 10px 5px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid black;
     border-radius: 10px;
 }
+
+
+        /* posizionamento e stile bottoni */
+
 .buttons {
     margin-left: 50px;
 }
 hr {
-    height: 5px;
-    background-color: lightgray;
+    border-top: 2px solid lightgray;
+    /* height: 5px; */
+    /* background-color: lightgray; */
+}
+
+.bold {
+    font-weight: bold;
+}
+.bottone1 {
+    color: white;
+    background-color: aqua;
+    border: aqua;
+    font-weight: bold;
+}
+.bottone2 {
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+    border-color: gray;
 }
