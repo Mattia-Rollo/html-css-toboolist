@@ -66,6 +66,15 @@ hr {
     /* height: 5px; */
     /* background-color: lightgray; */
 }
+.red{
+    color: red;
+}
+.circle{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+}
 
 .bold {
     font-weight: bold;
@@ -85,6 +94,9 @@ hr {
 .container-lists {
     padding: 40px 40px;
 
+}
+summary {
+    font-size: 1.5em;
 }
 p {
     line-height: 2em;
