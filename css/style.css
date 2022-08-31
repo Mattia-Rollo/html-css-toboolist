@@ -71,22 +71,22 @@ hr {
 .red{
     color: red;
 }
-.green {
-    color: green;
-}
+
 .circle{
     display: inline-block;
     border: 1px solid red;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle;
     text-align: center;
 
 }
-.brd-green {
+.green {
+    color: green;
     border-color: green;
 }
+
 
 .bold {
     font-weight: bold;
@@ -111,5 +111,8 @@ summary {
     font-size: 1.5em;
 }
 p {
-    /* line-height: 2em; */
+    line-height: 2em;
+}
+ul {
+    
 }
